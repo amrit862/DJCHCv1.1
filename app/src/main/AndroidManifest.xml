@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.djchc.djchcv11">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/djchc_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FAQ"
+            android:label="FAQ"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ContactUs"
+            android:label="Contacts"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AboutUs"
+            android:label="About Us"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Paryushan"
+            android:label="Paryushan"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Notification"
+            android:label="Notification"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HyderabadTemples"
+            android:label="Hyderabad Temples"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PointsToRemember"
+            android:label="Points To Remember"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ContactDevelopers"
+            android:label="Contact Developers"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".Gallery"
+            android:label="Gallery"
+            android:parentActivityName=".MainActivity" ></activity>
+
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".BootUpReceiver"
+            android:enabled="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

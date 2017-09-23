@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "142940316276",
+    "firebase_url": "https://djchc-9997c.firebaseio.com",
+    "project_id": "djchc-9997c",
+    "storage_bucket": "djchc-9997c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142940316276:android:9bc5571239acdd6e",
+        "android_client_info": {
+          "package_name": "com.djchc.djchcv11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142940316276-rtfgohujui9152jfpulpmf72qkjkl88m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD-bAfVRNgZYDWcIsayPev0i3AXGPlE3Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

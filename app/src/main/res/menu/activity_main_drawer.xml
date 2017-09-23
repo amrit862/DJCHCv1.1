@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aboutus"
+            android:title="About Us" />
+        <item
+            android:id="@+id/faq"
+            android:title="FAQ" />
+        <item
+            android:id="@+id/contactus"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/pointsToRemember"
+            android:title="Points To Remember" />
+        <item
+            android:id="@+id/Notification"
+            android:title="Notification" />
+        <item
+            android:id="@+id/HydTemples"
+            android:title="Hyderabad Temples" />
+        <item
+            android:id="@+id/gallery"
+            android:title="Gallery" />
+        <item android:visible="true"
+            android:id="@+id/paryushan"
+            android:title="Paryushan Updates" />
+        <item
+            android:id="@+id/contactDevelopers"
+            android:title="Contact Developers" />
+    </group>
+
+</menu>
+
